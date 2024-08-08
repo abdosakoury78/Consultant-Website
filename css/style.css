@@ -6,7 +6,7 @@
 }
 
 /* header section  */
-header {
+.head {
     /* width: 100vw; */
     height: 100vh;
     background-image: url("../Images/pexels-photo-8693379.webp");
@@ -64,7 +64,6 @@ header {
 
 .content p {
     font-size: 20px;
-    width: 400px;
 }
 
 .content button {
@@ -87,9 +86,7 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-    body, nav {
-        min-width: 450px;
-    }
+
     .first {
         display: none;
     }
@@ -193,6 +190,10 @@ header {
         margin-top: -30px;
         /* background-color: blue; */
     }
+
+    .container_two .two .content_two:last-child {
+        width: 85%;
+    }
 }
 
 
@@ -246,6 +247,11 @@ header {
     .flex span {
         font-size: 55px;
     }
+
+    .flex .image {
+        margin: 0 20px;
+        /* width: 100px; */
+    }
 }
 
 /* Clients section */
@@ -256,6 +262,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     /* gap: 20px; */
     /* text-align: center; */
 }
@@ -308,7 +315,7 @@ header {
 
 @media only screen and (max-width: 768px) {
     .client {
-        width: 40%;
+        width: 80%;
     }
 
     .main {
