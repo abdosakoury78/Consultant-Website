@@ -178,11 +178,13 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
 
     .container_two .one {
         width: 70%;
-        margin: auto;
+        /* margin: 40px auto; */
         /* background-color: blue; */
         /* text-align: center; */
     }
@@ -233,10 +235,17 @@ header {
 @media only screen and (max-width: 768px) {
     .flex {
         height: 150vh;
+        text-align: center;
+        gap: 0;
     }
 
     .flex h1 {
-        margin: 40px 0;
+        margin: 40px auto 0;
+        font-size: 45px;
+    }
+
+    .flex span {
+        font-size: 55px;
     }
 }
 
@@ -300,11 +309,11 @@ header {
 
 @media only screen and (max-width: 768px) {
     .client {
-        width: 30%;
+        width: 40%;
     }
 
     .main {
-        height: 270vh;
+        height: auto;
     }
 }
 
