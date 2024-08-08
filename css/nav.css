@@ -57,6 +57,7 @@
 
 
 @media only screen and (max-width: 768px) {
+
     .links {
         height: calc(100vh - 40px);
         width: 50%;
@@ -79,8 +80,6 @@
     }
 
     .navbar i:hover ~ .links, .links:hover {
-        /* background-color: blue; */
-        /* transform: translateX(-20px); */
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
