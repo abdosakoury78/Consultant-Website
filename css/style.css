@@ -174,12 +174,12 @@ header {
 
 @media only screen and (max-width: 768px) {
     .container_two {
-        height: 150vh;
+        height: auto;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 50px;
     }
 
     .container_two .one {
