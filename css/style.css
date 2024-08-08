@@ -87,8 +87,8 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        width: 768px;
+    body, nav {
+        min-width: 450px;
     }
     .first {
         display: none;
